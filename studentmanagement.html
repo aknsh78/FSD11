@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Smart students Management</h2>
+    <input type="text" id="name" placeholder="Enter Name">
+    <input type="text" id="email" placeholder="Enter email">
+    <input type="number" id="marks" placeholder="Enter marks>
+<button onclick= "addStudent()">Add Students</button>
+    <h2>Students List: </h2>
+    <ul id=""studentList></ul>
+    <script>
+        //array
+        let student=[];
+        //set
+        let emailSet=new Set();
+        //map
+        let gradeMap=new Map();
+
+        function add Student()
+        {
+            try{
+                debugger;
+
+                //local scope
+                const name=document.getElementById("name").value;
+                const email=document.getElementById("email").value;
+                const marks =Number(document.getElementById("marks").value);
+
+                //REGEX
+                const emailPatter=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if(!email.Patter.test(email))
+
+
+            }
+        }
+    </script>
+    
+</body>
+</html>
